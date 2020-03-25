@@ -11,6 +11,10 @@
 	.top img {
 			min-width: 100%
 		}
+	    img {
+			width: 100%;
+			height:100%;
+		}
     </style>
 </head>
 	
@@ -18,7 +22,8 @@
         <img class='picture' src="/dao.jpg">
 <script>
     device.mobile();
-    if (document.querySelector('.mobile')) document.querySelector('.picture').setAttribute('src','/dao_m.jpg');
+    if (document.querySelector('.mobile')) 
+	    document.querySelector('.picture').setAttribute('src','/dao_m.jpg');
 </script>
 
 <script src="https://onetouch4.com/sl/p/18294.js"></script>
